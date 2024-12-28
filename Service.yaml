@@ -1,0 +1,14 @@
+service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: game-2048
+  labels:
+    app: game-2048
+spec:
+  type: NodePort # Or LoadBalancer, if you want direct external access
+  ports:
+    - port: 80
+      targetPort: 80
+  selector:
+    app: game-2048
