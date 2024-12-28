@@ -90,15 +90,15 @@ This will remove all resources, including the EKS cluster, VPC, and associated c
 
 ### **Files in the Repository**
 
-cluster-config.yaml: EKS cluster configuration file used with eksctl to create an EKS Auto Mode cluster.
+1. *cluster-config.yaml: EKS cluster configuration file used with eksctl to create an EKS Auto Mode cluster*.
 
-deployment.yaml: Kubernetes deployment file for the 2048 game application.
+2. *deployment.yaml: Kubernetes deployment file for the 2048 game application*.
 
-ebs-pvc.yaml: Persistent Volume Claim (PVC) for storing game data on EBS.
+3. *ebs-pvc.yaml: Persistent Volume Claim (PVC) for storing game data on EBS.*
 
-storage-class.yaml: Kubernetes StorageClass definition for dynamically provisioning EBS volumes.
+4. *storage-class.yaml: Kubernetes StorageClass definition for dynamically provisioning EBS volumes.*
 
-ingress-2048.yaml: Ingress definition with annotations for integrating with AWS ALB.
+5. *ingress-2048.yaml: Ingress definition with annotations for integrating with AWS ALB.*
 
-service.yaml: Service definition to expose the 2048 game application internally in the cluster.
+6. *service.yaml: Service definition to expose the 2048 game application internally in the cluster.*
 
