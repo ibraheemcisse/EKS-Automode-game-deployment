@@ -18,4 +18,3 @@ spec:
               name: service-2048
               port:
                 number: 80
-[cloudshell-user@ip-10-130-81-14 ~]$ 
