@@ -6,7 +6,7 @@ metadata:
   labels:
     app: game-2048
 spec:
-  type: NodePort # Or LoadBalancer, if you want direct external access
+  type: NodePort 
   ports:
     - port: 80
       targetPort: 80
