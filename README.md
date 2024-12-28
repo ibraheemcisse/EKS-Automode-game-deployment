@@ -31,8 +31,7 @@ Create an EKS cluster using the configuration file `cluster-config.yaml`. The cl
 
 Run the following command:
 
-```bash
+``bash
 eksctl create cluster -f cluster-config.yaml
 
-This will create a VPC, subnets, and the necessary EKS control plane components. You can monitor the cluster creation progress using:
-
+defre
